@@ -540,7 +540,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f5f9fc;
+  background-color: rgb(245, 227, 199);
 }
 
 .section-title {
@@ -612,10 +612,16 @@ section {
 .img-fluid{
   height: 350px;
   width: 700px;
+  border-radius: 5px;
 }
 .about {
   padding-bottom: 30px;
 }
+/* .video-box{
+  border-radius: 5px;
+
+
+} */
 
 .about .container {
   box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
@@ -623,6 +629,8 @@ section {
 
 .about .video-box img {
   padding: 15px 0;
+  border-radius: 5px;
+
 }
 
 .about .section-title p {
@@ -789,6 +797,8 @@ section {
 /*--------------------------------------------------------------
 # About Lists
 --------------------------------------------------------------*/
+
+
 .about-lists {
   padding: 40px;
 }
@@ -898,6 +908,7 @@ section {
 
 .services .icon-box:hover .icon i {
   box-shadow: 0px 0 30px rgba(66, 139, 202, 0.5);
+  border-radius: 5px;
 }
 
 .services .title {
@@ -954,16 +965,16 @@ section {
   padding: 10px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #444;
+  color: rgb(153, 42, 42);
   border-radius: 4px;
   text-transform: uppercase;
-  background: #fff;
+  background: rgb(253, 242, 191);
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #428bca;
+  background: #744040;
   color: #fff;
 }
 
@@ -995,7 +1006,7 @@ section {
   right: 0;
   transition: 0.3s;
   text-align: center;
-  background: rgba(31, 53, 72, 0.6);
+  background: rgba(13, 56, 94, 0.6);
   padding-bottom: 30px;
 }
 
@@ -1524,3 +1535,4 @@ section {
 #footer .credits a {
   color: #9eccf4;
 }
+
