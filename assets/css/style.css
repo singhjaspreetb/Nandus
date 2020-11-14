@@ -4,6 +4,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444;
+  background-color: whitesmoke;
 }
 
 a {
@@ -52,6 +53,12 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
+
+/* .center { 
+  text-align: center; 
+  width: 100%; 
+}  */
+
 #topbar {
   text-align: center;
   background: rgb(70, 45, 13);
@@ -376,7 +383,14 @@ form.example button {
   /* Prevent double borders */
   cursor: pointer;
 }
-
+.cp{
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.cd{
+  margin-left: 10px;
+  color: gray;
+}
 form.example button:hover {
   background: #0b7dda;
 }
@@ -404,7 +418,7 @@ form.example::after {
   content: '';
   background-color: rgba(235, 213, 14, 0.925);
   position: absolute;
-  height: 78%;
+  height: 81%;
   width: 100%;
   top: 0;
   right: 0;
@@ -1554,18 +1568,17 @@ section {
 .overlay {
   position: absolute;
   bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
+  
   /* Black see-through */
   color: #f1f1f1;
   width: 100%;
-  transition: .5s ease;
+  /* transition: .5s ease; */
   opacity: 0;
   color: white;
   font-size: 20px;
-  padding: 20px;
-  text-align: center;
+  padding:10px;
+  text-align: ;
 }
-
-.container:hover .overlay {
+ .overlay {
   opacity: 1;
+}
